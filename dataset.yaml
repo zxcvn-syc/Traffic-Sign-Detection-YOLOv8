@@ -1,0 +1,14 @@
+path: .
+
+train: output/images/train
+val: output/images/val
+test: output/images/test
+
+nc: 5
+
+names:
+  0: speed_limit
+  1: stop
+  2: turn_left
+  3: turn_right
+  4: pedestrian
