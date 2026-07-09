@@ -1,0 +1,56 @@
+# Project Contribution & Task Division
+Project: YOLO Traffic Sign Detection under Night & Blur Scenes
+
+## Member Task List
+1. Zhou Zixun (Module A, Deadline: 06.05)
+Deliverables:
+- Final YOLO-format dataset
+- Data augmentation source code
+- Special test set for night/blur scenarios
+Docking: Dataset for B & C model training; test set for D evaluation
+
+2. Gao Yating (Module B, Deadline: 06.07)
+Deliverables:
+- Baseline model weight (.pt)
+- Complete training logs
+- Baseline performance table (mAP / FLOPs / FPS)
+Docking: All materials submit to D for baseline comparison
+
+3. Xue Yuxi (Module C, Deadline: 06.11)
+Deliverables:
+- Improved model weight (.pt)
+- Code modification description doc
+- Preliminary comparison: Baseline VS Improved Model
+Docking: All materials submit to D for final evaluation
+
+4. Yang Shiyu (Module D, Deadline: 06.14)
+Deliverables:
+- Multi-condition evaluation charts
+- Confusion matrix
+- Error analysis table (10 typical failure cases)
+- Verification conclusion of model improvement
+Docking: All analysis results for the whole group to write report & PPT
+
+5. Zhang Yuxuan (Module E, Deadline: 06.14)
+Deliverables:
+- Real-time detection demo
+- Demo presentation video
+- GitHub repo with complete README
+- (Optional) ONNX / TensorRT deployment files
+Docking: Full repo available for all members; demo & video for defense presentation
+
+## Work Dependency
+1. Module A dataset is prerequisite for Module B & C model training
+2. Baseline weight (B) & improved weight (C) are required inputs of Module D evaluation
+3. D analysis results + E demo & code are core materials for final report and defense
+
+## File Naming Standard
+Format: [ModuleID]_file_name_YYMMDD.suffix
+Example:
+A_dataset_0605.zip
+B_baseline_0607.pt
+D_evaluation_figure_0614.png
+
+## Storage Rule
+- Large files (dataset, weights): Store in cloud disk, only put download link in repo
+- Source code, docs, charts, logs: Store in corresponding module folders in GitHub repo
